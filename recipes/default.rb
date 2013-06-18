@@ -8,6 +8,7 @@
 #
 
 package 'apache2'
+package 'git'
 
 service 'apache2' do
   action [:enable, :start]
